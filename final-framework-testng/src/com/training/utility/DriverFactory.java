@@ -20,7 +20,7 @@ public class DriverFactory {
 	public static WebDriver getDriver(String driverName){
 
 		if(driverName.equals(DriverNames.CHROME)){
-			System.setProperty(Driver.CHROME, Driver.CHROME_PATH);
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\SwostisiddhaNayak\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		
 			
