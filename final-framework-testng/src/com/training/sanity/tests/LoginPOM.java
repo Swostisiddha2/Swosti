@@ -16,11 +16,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
+import com.training.pom.CatlogPOM;
 import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class LoginPOM {
+public class CatlogTest1 {
 private WebDriver driver;
 private String baseUrl;
 private LoginPOM loginPOM;
@@ -78,4 +79,4 @@ WebElement catlog=driver.findElement(By.xpath("//*[@class='fa fa-tags fa-fw']"))
 /*CatlogPOM.catlog();
 screenShot.captureScreenShot("Second");
 }*/
-}}
+}
